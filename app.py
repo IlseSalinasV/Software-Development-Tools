@@ -3,7 +3,7 @@ import scipy.stats
 import streamlit as st
 import plotly.express as px
 
-car_data = pd.read_csv('E:\\Tripleten\\Sprint_5\\Mis_proyectos\\Proy_1\\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 st.header("Análisis del conjunto de datos")
 
